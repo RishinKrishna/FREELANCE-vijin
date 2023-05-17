@@ -228,7 +228,7 @@
     width: 100%;
     height: auto;
     border-radius: 0 20px 20px 0;
-    margin: 5px 5px 5px 0;
+    margin: 5px 0px 5px 0;
 }
 
 .scroll-img-center {
@@ -242,7 +242,7 @@
     width: 100%;
     height: auto;
     border-radius: 20px 0 0 20px;
-    margin: 5px 5px 5px 0;
+    margin: 5px 0px 5px 0;
 }
 
 
@@ -254,9 +254,10 @@
     height: 8px;
     border: 1px solid black;
     text-decoration: none;
+    margin-top: 50px;
     color: black;
     border-radius: 60px;
-    padding: 2px;
+    padding: 2px 16px 2px 16px;
     background-color: rgba(255, 255, 255, 0.774);
     font-size: 12px;
        
@@ -323,4 +324,14 @@ textarea{
 }
 .about-section{
     padding: 0 5px 0 5px;
+}
+.card-btn{
+    padding: 3px 20px 3px 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    border:none;
+    color: black;
+    margin: 30px 20px 0 0;
+
+
 }
