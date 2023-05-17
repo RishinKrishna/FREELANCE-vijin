@@ -59,7 +59,7 @@
 }
 
 .btn-rotate {
-    transition: 2s  all ease-out ;
+    transition: 2s all ease-out;
 }
 
 .btn-rotate :hover {
@@ -180,13 +180,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(248, 248, 248);;
+    background-color: rgb(248, 248, 248);
     border-radius: 60px;
     text-decoration: none;
     border: 1px solid gray;
 
 }
-.view-btn :hover{
+
+.view-btn :hover {
     background-color: black;
 }
 
@@ -243,7 +244,8 @@
 .footer-line {
     border: 1px solid rgba(128, 128, 128, 0.678);
 }
-.footer-gmail{
+
+.footer-gmail {
     width: 100px;
     height: 8px;
     border: 1px solid black;
@@ -254,13 +256,15 @@
     padding: 2px 16px 2px 16px;
     background-color: rgba(255, 255, 255, 0.774);
     font-size: 12px;
-       
+
 }
-.contact-main-section{
+
+.contact-main-section {
     padding: 0 40px 0 40px;
 
 }
-.con-socil-icons{
+
+.con-socil-icons {
     width: 2.5rem;
     height: 2.5rem;
     background-color: #1d1f21;
@@ -271,17 +275,21 @@
     align-self: flex-start;
     align-items: center;
     margin-right: 1rem;
-    display: flex;;
+    display: flex;
+    ;
 }
-.con-socil-names{
+
+.con-socil-names {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact-right-section{
+
+.contact-right-section {
     padding: 0 0 0 70px;
 }
-.services{
+
+.services {
     border: 1px solid gray;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
@@ -289,62 +297,74 @@
     font-size: 16px;
     margin-top: 50px
 }
-input{
+
+input {
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
     padding: 16px 0px 12px 0px;
     width: 100%;
 }
-textarea{
+
+textarea {
     border: none;
     outline: none;
     border-bottom: 1px solid gray;
     padding: 16px 0px 12px 0px;
     width: 100%;
 }
-.checkbox{
+
+.checkbox {
     font-size: 50px;
     background-color: red;
 }
-.about-header{
+
+.about-header {
     font-size: 50px;
     padding-top: 100px;
     font-weight: bold;
 }
-.about-main-photo{
+
+.about-main-photo {
     width: 100%;
     height: 100%;
 }
-.about-section{
+
+.about-section {
     padding: 0 2px 0 2px;
 }
-.card-btn{
+
+.card-btn {
     padding: 3px 20px 3px 20px;
     font-size: 14px;
     border-radius: 20px;
-    border:none;
+    border: none;
     color: black;
     margin: 30px 20px 0 0;
 
 
 }
-.about-img-pre{
+
+.about-img-pre {
     width: 100%;
     height: 570px;
 }
-.about-center-section{
+
+.about-center-section {
     background-color: rgb(247, 247, 247);
 }
-.about-cards{
+
+.about-cards {
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
 }
-.about-awards-section{
+
+.about-awards-section {
     background-color: #1d1f21;
 }
-.achievements-details-btn{ 
+
+.achievements-details-btn {
     background-color: #e7e7e7;
     border: 1px solid black;
     border-radius: 20px;
@@ -354,13 +374,33 @@ textarea{
     padding: 3px 20px 3px 20px;
     text-decoration: none;
 }
-.about-bottum-section{
+
+.about-bottum-section {
     background-color: rgb(247, 247, 247);
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.work-bottum-section{
+
+.work-bottum-section {
     background-color: #1d1f21;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.project-header-section {
+    background-image: url("https://live.staticflickr.com/3282/2591438042_41fc78868a.jpg");
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+.about-header-line{
+    border: 1px solid white;
+    padding: 0px 30px 0 30px;
+}
+.projects-black-section{
+    background-color: #1d1f21;
+    padding: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
+
 }
