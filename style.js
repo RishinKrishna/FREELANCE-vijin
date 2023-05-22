@@ -455,3 +455,147 @@ let hiAnim24 = gsap.timeline({
 hiAnim24.fromTo(work_bottum_paragraph_chaild,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
 
 ///////////////////////////////////////////////////////////////////////////////
+
+const index_img_1 = document.querySelector(".index-img-1")
+const index_img_chaild_1 = document.querySelector(".index-img-chaild-1")
+
+let hiAnim25 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_1,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim25.fromTo(index_img_chaild_1,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+const index_img_view_btn_1 = document.querySelector("index-img-view-btn-1")
+const index_img_view_btn_chaild_1 = document.querySelector(".index-img-view-btn-chaild-1")
+
+let hiAnim26 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_view_btn_1,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim26.fromTo(index_img_view_btn_chaild_1,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////////////////
+
+const index_img_2 = document.querySelector(".index-img-2")
+const index_img_chaild_2 = document.querySelector(".index-img-chaild-2")
+
+let hiAnim27 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_2,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim27.fromTo(index_img_chaild_2,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+const index_img_view_btn_2 = document.querySelector("index-img-view-btn-2")
+const index_img_view_btn_chaild_2 = document.querySelector(".index-img-view-btn-chaild-2")
+
+let hiAnim28 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_view_btn_2,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim28.fromTo(index_img_view_btn_chaild_2,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+
+const index_img_3 = document.querySelector(".index-img-3")
+const index_img_chaild_3 = document.querySelector(".index-img-chaild-3")
+
+let hiAnim29 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_3,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim29.fromTo(index_img_chaild_3,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+const index_img_view_btn_3 = document.querySelector("index-img-view-btn-3")
+const index_img_view_btn_chaild_3 = document.querySelector(".index-img-view-btn-chaild-3")
+
+let hiAnim30 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_view_btn_3,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim30.fromTo(index_img_view_btn_chaild_3,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+
+const index_img_4 = document.querySelector(".index-img-4")
+const index_img_chaild_4 = document.querySelector(".index-img-chaild-4")
+
+let hiAnim31 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_4,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim31.fromTo(index_img_chaild_4,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////////////////
+
+
+const index_img_view_btn_4 = document.querySelector("index-img-view-btn-4")
+const index_img_view_btn_chaild_4 = document.querySelector(".index-img-view-btn-chaild-4")
+
+let hiAnim32 = gsap.timeline({
+    scrollTrigger: {
+        trigger: index_img_view_btn_4,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+hiAnim32.fromTo(index_img_view_btn_chaild_4,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
