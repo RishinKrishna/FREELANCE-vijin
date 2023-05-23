@@ -538,7 +538,7 @@ let hiAnim29 = gsap.timeline({
         markers: false,
         start: "top 70% ",
         end: "bottom 10% ",
-        toggleActions: "play  restart "
+        toggleActions: " restart "
     } 
 });
 
@@ -599,3 +599,287 @@ let hiAnim32 = gsap.timeline({
 
 
 hiAnim32.fromTo(index_img_view_btn_chaild_4,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+///////////////////////////////////////////////////////////////////
+
+const project_main_heading_animation = document.querySelector("project-main-heading-animation")
+const project_main_heading_animation_child = document.querySelector(".project-main-heading-animation-child")
+
+let hiAnim33 = gsap.timeline({
+    scrollTrigger: {
+        trigger: project_main_heading_animation,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim33.fromTo(project_main_heading_animation_child,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+////////////////////////////////////////////////////////////////////
+
+const project_sub_heading_animation = document.querySelector(".project-sub-heading-animation")
+const project_sub_heading_animation_chaild = document.querySelector(".project-sub-heading-animation-chaild")
+
+let hiAnim34 = gsap.timeline({
+    scrollTrigger: {
+        trigger: project_sub_heading_animation,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim34.fromTo(project_sub_heading_animation_chaild,{opacity:"0" ,x:100}, {duration:1,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+const project_paragraph_animation = document.querySelector(".project-paragraph-animation")
+const project_paragraph_animation_chaild = document.querySelector(".project-paragraph-animation-chaild")
+
+let hiAnim35 = gsap.timeline({
+    scrollTrigger: {
+        trigger: project_paragraph_animation,
+        markers: false,
+        start: "top 70% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim35.fromTo(project_paragraph_animation_chaild,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+const pro_img_1 = document.querySelector(".pro-img-1")
+const pro_img_1_haild = document.querySelector(".pro-img-1-haild")
+
+let hiAnim36 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_1,
+        markers: false,
+        start: "top 80% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim36.fromTo(pro_img_1_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+
+const pro_img_2 = document.querySelector(".pro-img-2")
+const pro_img_2_haild = document.querySelector(".pro-img-2-haild")
+
+let hiAnim37 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_2,
+        markers: false,
+        start: "top 80% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim36.fromTo(pro_img_2_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+const pro_img_3 = document.querySelector(".pro-img-3")
+const pro_img_3_haild = document.querySelector(".pro-img-3-haild")
+
+let hiAnim38 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_3,
+        markers: false,
+        start: "top 80% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim38.fromTo(pro_img_3_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+const pro_img_4 = document.querySelector(".pro-img-4")
+const pro_img_4_haild = document.querySelector(".pro-img-4-haild")
+
+let hiAnim39 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_4,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim39.fromTo(pro_img_4_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+const pro_img_5 = document.querySelector(".pro-img-5")
+const pro_img_5_haild = document.querySelector(".pro-img-5-haild")
+
+let hiAnim40 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_5,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim39.fromTo(pro_img_5_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+
+const pro_img_6 = document.querySelector(".pro-img-6")
+const pro_img_6_haild = document.querySelector(".pro-img-6-haild")
+
+let hiAnim41 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_img_6,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim41.fromTo(pro_img_6_haild,{opacity:"0" ,y:100}, {duration:.5,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+
+const pro_work_btn = document.querySelector(".pro-work-btn")
+const pro_work_btn_chaild = document.querySelector(".pro-work-btn-chaild")
+
+let hiAnim42 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_work_btn,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim42.fromTo(pro_work_btn_chaild,{opacity:"0" ,x:100}, {duration:.5,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+const pro_bottum_img_1 = document.querySelector(".pro-bottum-img-1")
+const pro_bottum_img_1_chaild = document.querySelector(".pro-bottum-img-1-chaild")
+
+let hiAnim44 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_bottum_img_1 ,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim42.fromTo(pro_bottum_img_1_chaild,{opacity:"0" ,x:100}, {duration:.5,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////
+const pro_bottum_img_2 = document.querySelector(".pro-bottum-img-2")
+const pro_bottum_img_2_chaild = document.querySelector(".pro-bottum-img-2-chaild")
+
+let hiAnim45 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_bottum_img_2 ,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim42.fromTo(pro_bottum_img_2_chaild,{opacity:"0" ,x:100}, {duration:.5,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////
+const pro_bottum_img_3 = document.querySelector(".pro-bottum-img-3")
+const pro_bottum_img_3_chaild = document.querySelector(".pro-bottum-img-3-chaild")
+
+let hiAnim46 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_bottum_img_3 ,
+        markers: false,
+        start: "top 30% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim42.fromTo(pro_bottum_img_3_chaild,{opacity:"0" ,x:100}, {duration:.5,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////
+
+const pro_GetInTouch_animation = document.querySelector(".pro-GetInTouch-animation")
+const pro_GetInTouch_animation_chaild = document.querySelector(".pro-GetInTouch-animation-chaild")
+
+let hiAnim47 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_GetInTouch_animation ,
+        markers: false,
+        start: "top 80% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim47.fromTo(pro_GetInTouch_animation_chaild,{opacity:"0" ,x:100}, {duration:.5,opacity:"1" ,x:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////
+const pro_GetInTouch_paragraph_animation = document.querySelector(".pro-GetInTouch-paragraph-animation")
+const pro_GetInTouch_animation_paragraph_chaild = document.querySelector(".pro-GetInTouch-animation-paragraph-chaild")
+
+let hiAnim48 = gsap.timeline({
+    scrollTrigger: {
+        trigger: pro_GetInTouch_paragraph_animation ,
+        markers: false,
+        start: "top 80% ",
+        end: "bottom 10% ",
+        toggleActions: "play  restart "
+    } 
+});
+
+
+
+hiAnim47.fromTo(pro_GetInTouch_animation_paragraph_chaild,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
+
+/////////////////////////////////////////////////////////////////////////
