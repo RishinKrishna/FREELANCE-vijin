@@ -15,7 +15,7 @@ let hiAnim = gsap.timeline({
         toggleActions: "play  restart "
     } 
 });
-hiAnim.fromTo(section1,{opacity:"0" ,x:-100}, {duration:1,opacity:"1" ,x:0,ease: "power2.inOut"})
+hiAnim.fromTo(section1,{opacity:"0" ,y:-100}, {duration:1,opacity:"1" ,y:0,ease: "elastic"})
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
@@ -35,7 +35,7 @@ let hiAnim2 = gsap.timeline({
         toggleActions: "play  restart "
     } 
   });
-  hiAnim2.fromTo(index_main_pera_animate_chaild_right,{opacity:"0" ,x:100}, {duration:1,opacity:"1" ,x:0,ease: "power2.inOut"})
+  hiAnim2.fromTo(index_main_pera_animate_chaild_right,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
   
   //////////////////////////////////////////////////////////////////////////////////////////////////
   
@@ -54,7 +54,7 @@ let hiAnim3 = gsap.timeline({
         toggleActions: "play  restart "
     } 
 });
-hiAnim3.fromTo(index_main_pera_animate_chaild_left,{opacity:"0" ,x:-100}, {duration:1,opacity:"1" ,x:0,ease: "power2.inOut"})
+hiAnim3.fromTo(index_main_pera_animate_chaild_left,{opacity:"0" ,y:100}, {duration:1,opacity:"1" ,y:0,ease: "power2.inOut"})
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -75,7 +75,7 @@ let hiAnim4 = gsap.timeline({
 });
 
 
-hiAnim4.fromTo(index_about_paragraph_animation_chaild,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
+hiAnim3.fromTo(index_about_paragraph_animation_chaild,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -538,7 +538,7 @@ let hiAnim29 = gsap.timeline({
         markers: false,
         start: "top 70% ",
         end: "bottom 10% ",
-        toggleActions: " restart "
+        toggleActions: "play restart "
     } 
 });
 
@@ -564,6 +564,7 @@ let hiAnim30 = gsap.timeline({
 
 hiAnim30.fromTo(index_img_view_btn_chaild_3,{opacity:"0" ,y:100}, {duration:2,opacity:"1" ,y:0,ease: "power2.inOut"})
 
+/////////////////////////////////////////////////////////////////////////////////////
 
 const index_img_4 = document.querySelector(".index-img-4")
 const index_img_chaild_4 = document.querySelector(".index-img-chaild-4")
